@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins:wght@400&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.about-logo {
+    margin-bottom: -80px;
+    margin-top: -30px;
+    max-width: 300px;
+    width: 100%;
+}
+
+.about-section {
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding: 20px;
+}
+
+.about-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    margin-top: 10px;
+    max-height: none;
+    overflow: visible;
+}
+
+.about-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.contact-form {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form .form-label {
+    color: #ffffff;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.contact-input {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    color: #ffffff;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 250px;
+}
+
+.contact-input::placeholder {
+    color: #cccccc;
+    opacity: 1;
+}
+
+.contact-input:focus {
+    border-color: #ffffff;
+    box-shadow: none;
+    outline: none;
+}
+
+.contact-section {
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contact-submit {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 8px 15px;
+    width: 100px;
+}
+
+.contact-submit:hover {
+    background-color: #cccccc;
+}
+
+.contact-title {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.feature-card {
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333333;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.feature-card .card-text {
+    color: #555555;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.feature-card .card-title {
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+.features-section {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 50px 0;
+}
+
+.gallery-img {
+    border-radius: 10px;
+    height: 480px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    width: 393px;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+.gallery-section {
+    background-color: #ffffff;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #000;
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .about-logo {
+        margin-bottom: -50px;
+        max-width: 80%;
+    }
+
+    .about-text {
+        font-size: 18px;
+    }
+
+    .about-title {
+        font-size: 30px;
+    }
+}
